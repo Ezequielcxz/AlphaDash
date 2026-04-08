@@ -23,7 +23,14 @@ api.interceptors.request.use(
 
 // Response interceptor
 api.interceptors.response.use(
-  (response) => response,
+  (response) => {
+    // If the response is HTML (likely Vercel returning index.html for a missing API route),
+    // throw a standard error so components don't crash expecting arrays/objects.
+    if (typeof response.data === 'string' && response.data.toLowerCase().includes('<!doctype html>')) {
+      return Promise.reject(new Error('Backend API is not configured or unavailable'))
+    }
+    return response
+  },
   (error) => {
     console.error('API Error:', error.response?.data || error.message)
     return Promise.reject(error)
