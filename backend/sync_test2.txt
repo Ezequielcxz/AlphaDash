@@ -1,0 +1,10 @@
+﻿Sync status: 200
+{
+  "success": true,
+  "account_id": null,
+  "total_trades": 0,
+  "new_trades": 0,
+  "errors": [
+    "No closed trades found in the specified date range. Make sure MT5 terminal has historical data loaded and trades are closed (not just open positions)."
+  ]
+}

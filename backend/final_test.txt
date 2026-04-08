@@ -1,0 +1,8 @@
+﻿connected: True
+raw_importable: 410
+connector_trades: 0
+--- SYNC ---
+success: True
+total_trades: 0
+new_trades: 0
+errors: ['No closed trades found in the specified date range. Make sure MT5 terminal has historical data loaded and trades are closed (not just open positions).']

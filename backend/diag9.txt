@@ -1,0 +1,28 @@
+﻿python :   File 
+"<string>", line 9
+En línea: 1 Carácter: 1
++ python -c "
++ ~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (  F  
+  ile "<string>", line 9   
+ :String) [], RemoteExc    
+eption
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+    requests.post(f'{BASE}/
+sync/connect', json={'login
+:16240376,'password':'x','s
+erver':'VantageInternationa
+l-Live 
+5','path':vantage['path']})
+                           
+                           
+                           
+                           
+                           
+   ^
+SyntaxError: unterminated 
+string literal (detected 
+at line 9)

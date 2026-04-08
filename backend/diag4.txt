@@ -1,0 +1,33 @@
+﻿{
+  "connector_connected": true,
+  "account_info": {
+    "login": 16240376,
+    "name": "EZEQUIEL OSCAR D URSO",
+    "server": "VantageInternational-Live 5",
+    "currency": "USD",
+    "balance": 1449.37,
+    "equity": 6783.37,
+    "margin": 0.0,
+    "margin_free": 6783.37,
+    "margin_level": 0.0,
+    "profit": 0.0,
+    "company": "Vantage International Group Limited"
+  },
+  "mt5_terminal_info": {
+    "name": "Vantage International MT5",
+    "connected": true,
+    "company": "Vantage International Group Limited"
+  },
+  "deals_last_365": 2,
+  "deals_entry_breakdown": {
+    "IN": 1,
+    "OUT": 1
+  },
+  "importable_trades": 1,
+  "last_error": null,
+  "first_importable": {
+    "symbol": "XAUUSD+",
+    "profit": -49.2,
+    "time": "2026-04-02T16:34:19"
+  }
+}

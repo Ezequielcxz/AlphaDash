@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 210 20% 5%;
+    --foreground: 210 20% 98%;
+    --card: 210 15% 8%;
+    --card-foreground: 210 20% 98%;
+    --popover: 210 15% 8%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 160 84% 39%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 210 15% 15%;
+    --secondary-foreground: 210 20% 90%;
+    --muted: 210 15% 15%;
+    --muted-foreground: 210 15% 60%;
+    --accent: 210 15% 20%;
+    --accent-foreground: 210 20% 90%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 210 15% 20%;
+    --input: 210 15% 15%;
+    --ring: 160 84% 39%;
+    --radius: 0.5rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-dashboard-bg text-foreground antialiased;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+@layer components {
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-dashboard-bg;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-dashboard-border rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground;
+  }
+
+  /* Gradient text */
+  .text-gradient-profit {
+    @apply bg-gradient-to-r from-emerald-400 to-emerald-600 bg-clip-text text-transparent;
+  }
+
+  .text-gradient-loss {
+    @apply bg-gradient-to-r from-coral-400 to-coral-600 bg-clip-text text-transparent;
+  }
+
+  /* Glass effect */
+  .glass-card {
+    @apply bg-dashboard-card/80 backdrop-blur-sm border border-dashboard-border rounded-lg;
+  }
+
+  /* Glow effects */
+  .glow-profit {
+    box-shadow: 0 0 20px rgba(16, 185, 129, 0.2);
+  }
+
+  .glow-loss {
+    box-shadow: 0 0 20px rgba(239, 68, 68, 0.2);
+  }
+
+  /* Table styles */
+  .data-table {
+    @apply w-full text-sm;
+  }
+
+  .data-table th {
+    @apply px-4 py-3 text-left font-medium text-muted-foreground border-b border-dashboard-border;
+  }
+
+  .data-table td {
+    @apply px-4 py-3 border-b border-dashboard-border/50;
+  }
+
+  .data-table tr:hover td {
+    @apply bg-dashboard-hover;
+  }
+}
+
+@layer utilities {
+  /* Animation utilities */
+  .animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  /* Number formatting */
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}

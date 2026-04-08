@@ -1,0 +1,6 @@
+﻿Terminals: ['Vantage International MT5', 'Vex Pro MT5 Terminal']
+Using: C:\Program Files\Vantage International MT5\terminal64.exe
+initialize: False (-6, 'Terminal: Authorization failed')
+terminal connected: N/A name: N/A
+account login: NONE (-10004, 'No IPC connection')
+deals: NONE (-10004, 'No IPC connection')

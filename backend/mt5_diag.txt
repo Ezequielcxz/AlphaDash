@@ -1,0 +1,16 @@
+﻿============================================================
+MT5 DIRECT CONNECTION TEST
+============================================================
+
+Found 2 MT5 terminal(s):
+  [36596] Vantage International MT5
+         C:\Program Files\Vantage International MT5\terminal64.exe
+  [40528] Vex Pro MT5 Terminal
+         C:\Program Files\Vex Pro MT5 Terminal\terminal64.exe
+
+Testing with: Vantage International MT5
+Path: C:\Program Files\Vantage International MT5\terminal64.exe
+
+--- Step 1: initialize() ---
+initialize() result: False
+last_error(): (-6, 'Terminal: Authorization failed')

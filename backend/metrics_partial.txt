@@ -1,0 +1,21 @@
+﻿python :   File 
+"<string>", line 17
+En línea: 1 Carácter: 1
++ python -c "
++ ~~~~~~~~~~~
+    + CategoryInfo         
+     : NotSpecified: (  F  
+  ile "<string>", line 1   
+ 7:String) [], RemoteEx    
+ception
+    + FullyQualifiedErrorI 
+   d : NativeCommandError
+ 
+    print(f'  OK 
+total_trades={r.get(" 
+core\,
+                           
+          ^
+SyntaxError: unterminated 
+string literal (detected 
+at line 17)

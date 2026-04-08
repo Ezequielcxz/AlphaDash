@@ -1,0 +1,11 @@
+﻿=== TERMINALS ===
+  Vantage International MT5: C:\Program Files\Vantage International MT5\terminal64.exe (pid=36596)
+  Vex Pro MT5 Terminal: C:\Program Files\Vex Pro MT5 Terminal\terminal64.exe (pid=40528)
+
+Selected terminal: C:\Program Files\Vantage International MT5\terminal64.exe
+
+=== SYNCING (365 days) ===
+HTTP Status: 400
+{
+  "detail": "MT5 connection failed: MT5 initialize failed: (-6, 'Terminal: Authorization failed')"
+}

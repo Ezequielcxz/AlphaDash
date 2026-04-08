@@ -1,0 +1,8 @@
+﻿2026-04-05 23:34:01,279 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2026-04-05 23:34:01,284 INFO sqlalchemy.engine.Engine SELECT trades.id, trades.account_id, trades.ticket_id, trades.magic_number, trades.symbol, trades.type, trades.lots, trades.open_time, trades.close_time, trades.open_price, trades.close_price, trades.sl, trades.tp, trades.profit_usd, trades.pips, trades.commission, trades.swap, trades.mae, trades.mfe, trades.created_at 
+FROM trades 
+WHERE trades.account_id = ? AND trades.close_time >= ? ORDER BY trades.close_time ASC
+2026-04-05 23:34:01,284 INFO sqlalchemy.engine.Engine [generated in 0.00022s] (1, '2026-03-07 02:34:01.276546')
+Trades count: 174
+OK - keys: ['core', 'risk', 'temporal', 'strategies', 'equity_curve']
+2026-04-05 23:34:01,315 INFO sqlalchemy.engine.Engine COMMIT

@@ -1,0 +1,4 @@
+﻿connected: True balance: 1449.37
+still_connected: True
+connector_trades: 0
+raw_importable: 410

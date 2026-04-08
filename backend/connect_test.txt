@@ -1,0 +1,10 @@
+﻿Vantage path: C:\Program Files\Vantage International MT5\terminal64.exe
+Connect status: 200
+{
+  "connected": true,
+  "login": 16240376,
+  "server": "VantageInternational-Live 5",
+  "balance": 1449.37,
+  "equity": 6783.37,
+  "currency": "USD"
+}

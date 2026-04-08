@@ -1,0 +1,7 @@
+﻿Using: Vantage International MT5
+Connect: 200 True
+connected: True
+deals_365: 788
+breakdown: {'OUT': 378, 'IN': 378, 'OUT_BY': 32}
+importable: 410
+connector_history: 0

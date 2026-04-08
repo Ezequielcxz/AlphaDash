@@ -1,0 +1,7 @@
+﻿Terminal: Vantage International MT5
+Status: 200
+Connected: True
+Company: None
+Name: None
+DB broker_name: Vantage International Group Limited
+DB alias: EZEQUIEL OSCAR D URSO

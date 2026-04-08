@@ -1,0 +1,5 @@
+﻿Connected: True
+Deals last 365: 788
+Breakdown: {'OUT': 378, 'IN': 378, 'OUT_BY': 32}
+Importable: 410
+First importable: {'symbol': 'AUDCAD+', 'profit': -3.14, 'time': '2026-01-02T01:41:43'}

@@ -1,0 +1,9 @@
+﻿{
+  "connector_connected": false,
+  "account_info": null,
+  "mt5_terminal_info": null,
+  "deals_last_365": null,
+  "deals_entry_breakdown": {},
+  "importable_trades": 0,
+  "last_error": null
+}

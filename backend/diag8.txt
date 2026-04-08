@@ -1,0 +1,5 @@
+﻿Connect: 200 True balance: 1449.37
+connector_connected: True
+deals_365: 788
+importable (raw): 410
+connector_get_trade_history_count: 0

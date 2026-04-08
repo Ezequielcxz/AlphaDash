@@ -1,0 +1,5 @@
+﻿connected: True balance: 1449.37
+success: True
+total_trades: 410
+new_trades: 410
+errors: []
